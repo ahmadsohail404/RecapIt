@@ -1,5 +1,5 @@
 import Hero from "./components/Hero";
-import Demo from "./components/Demo";
+import HeroBottom from "./components/HeroBottom"
 
 import "./App.css";
 
@@ -12,7 +12,7 @@ const App = () => {
 
       <div className='app'>
         <Hero />
-        <Demo />
+        <HeroBottom />
       </div>
     </main>
   );
